@@ -161,7 +161,7 @@ std::tuple<std::string, std::string, int> simulate_trace(
             int partition_number = find_partition(program_size);
             current.partition_number = partition_number;
 
-            int loader_time = program_size * 20; // 15 ms * 1 MB
+            int loader_time = program_size * 15; // 15 ms * 1 MB
             execution += std::to_string(current_time) + ", " + std::to_string(duration_intr) + ", Program is " + std::to_string(program_size) + " Mb large\n";
             current_time += duration_intr;
 
