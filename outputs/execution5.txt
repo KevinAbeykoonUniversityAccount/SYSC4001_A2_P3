@@ -1,0 +1,74 @@
+0, 50, CPU Burst
+50, 30, CPU Burst
+80, 1, switch to kernel mode
+81, 10, context saved
+91, 1, find vector 2 in memory position 0x0004
+92, 1, load address 0X0695 into the PC
+93, 20, cloning the PCB
+113, 0, scheduler called
+113, 1, IRET
+114, 100, CPU Burst
+214, 80, CPU Burst
+294, 1, switch to kernel mode
+295, 10, context saved
+305, 1, find vector 3 in memory position 0x0006
+306, 1, load address 0X042B into the PC
+307, 35, Program is 10 Mb large
+342, 200, loading program into memory
+542, 3, marking partition as occupied
+545, 6, updating PCB
+551, 0, scheduler called
+551, 1, IRET
+552, 1, switch to kernel mode
+553, 10, context saved
+563, 1, find vector 2 in memory position 0x0004
+564, 1, load address 0X0695 into the PC
+565, 15, cloning the PCB
+580, 0, scheduler called
+580, 1, IRET
+581, 1, switch to kernel mode
+582, 10, context saved
+592, 1, find vector 3 in memory position 0x0006
+593, 1, load address 0X042B into the PC
+594, 33, Program is 15 Mb large
+627, 300, loading program into memory
+927, 3, marking partition as occupied
+930, 6, updating PCB
+936, 0, scheduler called
+936, 1, IRET
+937, 53, CPU Burst
+990, 1, switch to kernel mode
+991, 10, context saved
+1001, 1, find vector 3 in memory position 0x0006
+1002, 1, load address 0X042B into the PC
+1003, 33, Program is 15 Mb large
+1036, 300, loading program into memory
+1336, 3, marking partition as occupied
+1339, 6, updating PCB
+1345, 0, scheduler called
+1345, 1, IRET
+1346, 53, CPU Burst
+1399, 20, CPU Burst
+1419, 10, CPU Burst
+1429, 1, switch to kernel mode
+1430, 10, context saved
+1440, 1, find vector 2 in memory position 0x0004
+1441, 1, load address 0X0695 into the PC
+1442, 11, cloning the PCB
+1453, 0, scheduler called
+1453, 1, IRET
+1454, 1, switch to kernel mode
+1455, 10, context saved
+1465, 1, find vector 3 in memory position 0x0006
+1466, 1, load address 0X042B into the PC
+1467, 22, Program is 15 Mb large
+1489, 300, loading program into memory
+1789, 3, marking partition as occupied
+1792, 6, updating PCB
+1798, 0, scheduler called
+1798, 1, IRET
+1799, 53, CPU Burst
+1852, 40, CPU Burst
+1892, 60, CPU Burst
+1952, 75, CPU Burst
+2027, 120, CPU Burst
